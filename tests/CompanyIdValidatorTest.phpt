@@ -35,9 +35,9 @@ class CompanyIdValidatorTest extends TestCase {
 
         Assert::true($validator2->isValidId('01859951'));
         Assert::false($validator2->isValidId('1859951'));
-        Assert::false($validator1->isValidId('1234'));
-        Assert::false($validator1->isValidId('foo'));
-        Assert::false($validator1->isValidId(''));
+        Assert::false($validator2->isValidId('1234'));
+        Assert::false($validator2->isValidId('foo'));
+        Assert::false($validator2->isValidId(''));
     }
 
 }
