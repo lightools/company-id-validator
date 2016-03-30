@@ -1,0 +1,14 @@
+{
+    "name": "lightools/company-id-validator",
+    "description": "Simple Czech company ID validator.",
+    "license": ["MIT"],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "nette/tester": "1.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
