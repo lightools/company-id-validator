@@ -3,8 +3,8 @@
 namespace Lightools\CompanyIdValidator;
 
 /**
- * Based on code from David Grudl
- * http://latrine.dgx.cz/jak-overit-platne-ic-a-rodne-cislo
+ * Based on code by David Grudl
+ * https://phpfashion.com/jak-overit-platne-ic-a-rodne-cislo
  *
  * @author Jan Nedbal
  */
